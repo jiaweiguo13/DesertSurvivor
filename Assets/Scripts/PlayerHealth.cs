@@ -35,6 +35,6 @@ public class PlayerHealth : Health
     }
     protected override void UpdateHealthBar(float currentHealth, float maxHealth)
     {
-        UIMneger.instance.UpdatePlayerHealth(currentHealth, maxHealth);
+        UIMneger.Instance.UpdatePlayerHealth(currentHealth, maxHealth);
     }
 }
