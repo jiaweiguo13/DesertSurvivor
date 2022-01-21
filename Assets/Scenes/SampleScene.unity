@@ -598,6 +598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1191591036}
+  manaBar: {fileID: 1574434477}
 --- !u!4 &1052160281
 Transform:
   m_ObjectHideFlags: 0
@@ -803,6 +804,7 @@ GameObject:
   - component: {fileID: 1296797268}
   - component: {fileID: 1296797269}
   - component: {fileID: 1296797270}
+  - component: {fileID: 1296797271}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -982,6 +984,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialHealth: 100
   maxHealth: 100
+--- !u!114 &1296797271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296797262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4604d54712c1d14ea3c34722e6e41e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialMana: 100
+  maxMana: 100
+  regeneratePerSecound: 1
 --- !u!1 &1414085809
 GameObject:
   m_ObjectHideFlags: 0
