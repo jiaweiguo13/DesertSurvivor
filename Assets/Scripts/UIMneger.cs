@@ -8,6 +8,7 @@ public class UIMneger : Singleton<UIMneger>
     
     [SerializeField] private Image healthBar;
     [SerializeField] private Image manaBar;
+    [SerializeField] private GameObject inventaryPanel;
     private float currentHealth;
     private float maxHealth;
     private float currentMana;
@@ -34,4 +35,10 @@ public class UIMneger : Singleton<UIMneger>
         currentMana = current;
         maxMana = max;
     }
+
+    public void OpenClossInventary()
+    {
+        inventaryPanel.SetActive(!inventaryPanel.activeSelf);
+    }
+    
 }
